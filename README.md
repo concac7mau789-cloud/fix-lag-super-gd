@@ -4,7 +4,7 @@ Reduces lag by disabling particles and shaders, forcing Low Detail Mode in level
 
 ## Tutorial: how to download and install
 
-### Option A: Build with GitHub (easiest, no setup)
+### Option A: Build with GitHub (easiest, no setup, Windows only)
 1. Create a free account at github.com and make a new repository.
 2. Upload every file from this folder (keep the `.github/workflows/build.yml` path).
 3. Open the **Actions** tab and wait for "Build Binaries" to finish (a few minutes).

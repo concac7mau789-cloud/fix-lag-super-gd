@@ -1,17 +1,17 @@
 {
-	"geode": "4.0.1",
+	"geode": "5.11.2",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
+		"win": "2.2081"
 	},
 	"id": "yourname.fix-lag-super",
 	"name": "Fix Lag Super",
 	"version": "v1.1.0",
 	"developer": "YourName",
 	"description": "Reduces lag and stutter in Geometry Dash: disables particles and shaders, forces low detail, cleans memory, removes camera shake.",
-	"tags": ["performance", "utility"],
+	"tags": [
+		"performance",
+		"utility"
+	],
 	"settings": {
 		"disable-particles": {
 			"type": "bool",
