@@ -1,0 +1,53 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "yourname.fix-lag-super",
+	"name": "Fix Lag Super",
+	"version": "v1.1.0",
+	"developer": "YourName",
+	"description": "Reduces lag and stutter in Geometry Dash: disables particles and shaders, forces low detail, cleans memory, removes camera shake.",
+	"tags": ["performance", "utility"],
+	"settings": {
+		"disable-particles": {
+			"type": "bool",
+			"name": "Disable Particles",
+			"description": "Stops drawing all particle effects while you are inside a level.",
+			"default": true
+		},
+		"disable-shaders": {
+			"type": "bool",
+			"name": "Disable Shaders",
+			"description": "Ignores shader triggers (glitch, chromatic, pixelate, blur, bulge, etc.) when a level loads. Takes effect the next time you enter a level.",
+			"default": true
+		},
+		"performance-mode": {
+			"type": "bool",
+			"name": "Force Low Detail Mode",
+			"description": "Turns on GD's built-in Low Detail Mode while you are inside a level. Your normal setting is restored when you leave.",
+			"default": true
+		},
+		"purge-on-load": {
+			"type": "bool",
+			"name": "Clean Memory Before Level Load",
+			"description": "Frees unused textures before a level loads to reduce stutter and memory pressure.",
+			"default": true
+		},
+		"purge-on-quit": {
+			"type": "bool",
+			"name": "Clean Memory On Level Exit",
+			"description": "Frees unused textures when you leave a level so lag does not build up over a long session.",
+			"default": true
+		},
+		"disable-shake": {
+			"type": "bool",
+			"name": "Disable Camera Shake",
+			"description": "Ignores camera shake triggers, which can cause frame drops in heavy levels.",
+			"default": false
+		}
+	}
+}
